@@ -1,0 +1,1475 @@
+:root {
+    --naranja-primario: #E39968;
+    --verde-primario: #95B48A;
+    --btnrojo-primario: #ED5B5C;
+	--negro-primario: black;
+}
+
+
+
+/*////////////////////////////////////////////	RESET CSS	////////////////////////////////////////////////////////////////*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*////////////////////////////////////////////	 REGLAS GLOBALES DE ETIQUETAS	////////////////////////////////////////////////////////////////*/
+
+body {
+	font-family: 'DM Sans', sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+span {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+h1 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 17px;
+	font-weight: 700;
+	color: black;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+}
+
+h4 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+h5 {
+	color: black;
+}
+
+p {
+	font-size: 14px;
+	max-width: 550px;
+	font-style: italic;
+}
+
+
+
+/*////////////////////////////////////////////	 REGLAS DE CLASE	////////////////////////////////////////////////////////////////*/
+
+.button {
+	background-color: #ED5B5C;
+	width: 110px;
+	height: 45px;
+	border-radius: 20px;
+	cursor: pointer;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 0px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.nuestra1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.iconosocial {
+	display: flex;
+	flex-direction: row;
+	height: 30px;
+	width: 30px;
+}
+
+.imagenesredes {
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 10px;
+	gap: 20px;
+}
+
+
+/*////////////////////////////////////////////	 HEADER 	////////////////////////////////////////////////////////////////*/
+
+
+
+.secciones {
+	height: 100%;
+	width: 100%;
+	gap: 40px;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	color: black;
+	flex-direction: row;
+	display: none;
+}
+
+
+.logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.logoimagen {
+	background-size: cover;
+}
+
+
+.navegador {
+	display: none;
+	text-decoration: none;
+}
+
+/* Dropdown */
+
+.dropdown h5:hover {
+	color: black;
+}
+
+.dropdown {
+	display: flex;
+	flex-direction: column;
+	background-color: #E39968;
+	width: 100%;
+	height: calc(100vh - 120px);
+	padding-top: 60px;
+	gap: 100px;
+}
+
+.dropdown h5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: 100%;
+}
+
+/*////////////////////////////////////////////	 HOME	////////////////////////////////////////////////////////////////*/
+
+/* Bloque 1 */
+.texto1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+}
+
+.fotohome {
+	position: relative;
+	width: 100%;
+}
+
+/* Bloque 2 */
+
+.bloque2 {
+	margin: 20px 20px 20px 20px;
+}
+
+.texto2 {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+/* Bloque 3 */
+.bloque3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column-reverse;
+	background-color: #CBCBCB;
+}
+
+.fotobloque3 {
+	width: 320px;
+	height: 270px;
+}
+
+.texto3 {
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px 20px 20px 20px;
+}
+
+
+/* Bloque 4 */
+.bloque4 {
+	background-color: #E39968;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 20px 20px 20px;
+
+}
+
+.texto4 {
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.fotobloque4 {
+	margin: 0px 20px 0px -54px;
+}
+
+/* Bloque 5 */
+
+.bloque5 {
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+}
+
+.texto5 {
+	margin: 10px 20px 20px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 400px;
+}
+
+.fotobloque5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 25px 20px 20px 20px;
+	width: auto;
+
+}
+
+
+/*////////////////////////////////////////////	 QUIENES SOMOS	////////////////////////////////////////////////////////////////*/
+.segundaseccion {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	padding: 1%;
+	background-color: #E39968;
+}
+
+.imagen1segundaseccion {
+	display: flex;
+	padding: 1%;
+	flex-direction: column;
+	max-width: 100%;
+
+
+}
+
+
+
+.segundasecciontextos {
+	max-width: 100%;
+	height: 25%;
+	display: flex;
+	padding: 1%;
+	text-align: left;
+	flex-direction: column;
+
+}
+
+
+.primerasecciontextos {
+	max-width: 100%;
+	height: 25%;
+	display: none;
+	padding: 1%;
+	text-align: left;
+	flex-direction: column;
+
+}
+
+
+.terceraseccion {
+
+	display: flex;
+	width: 100%;
+	height: 560px;
+	padding: 2%;
+	background-color: white;
+
+
+}
+
+.tercerasecciontextos {
+	max-width: 100%;
+	height: 25%;
+	display: flex;
+	padding: 1%;
+	text-align: left;
+	flex-direction: column;
+}
+
+.imagenterceraseccion {
+	display: none;
+	padding: 1%;
+	flex-direction: row;
+}
+
+.tercerasecciontextosdesk {
+	display: none;
+
+}
+
+/*////////////////////////////////////////////	 HUELLA	////////////////////////////////////////////////////////////////*/
+
+.partetitulos {
+	padding: 2%;
+	background-color:#F2F2F2;
+}
+.primerseccion{
+	display: flex;
+	flex-direction: column;
+}
+.bajada2{
+	display: flex;
+}
+.segundobloque {
+	background-color:#E39968; 
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	
+}
+.segundahuella{
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	
+}
+
+.contenedorslider{
+		display: flex;
+		padding: 2%;
+	height: 150px;
+	}
+
+.menuhuella{
+		display: flex;
+		flex-direction: row;
+		height: 80px;
+		width: 100%;
+		box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+	justify-content: space-around;
+	}
+
+	.cate{
+		display: flex;
+		flex-direction: row;
+		height: 80px;
+		width: 100%;
+		align-items: center;
+		text-align: center;
+		background-color: #593A40;
+		
+	}
+	
+.catedos{
+	display: flex;
+	flex-direction: row;
+	background-color: #593A40;
+	height: 80px;
+		width: 100%;
+		align-items: center;
+		text-align: center;
+}
+
+.catetres{
+	display: flex;
+	flex-direction: row;
+	background-color: #593A40;
+	height: 80px;
+		width: 100%;
+		align-items: center;
+		text-align: center;
+}
+
+	.cate:hover{
+		background-color: #E39968;
+	}
+	.catedos:hover{
+		background-color: #E39968;
+	}
+
+	.catetres:hover{
+		background-color: #E39968;
+	}
+
+.rowimagen{
+	display: flex;
+	height: 300px;
+	width:350px;
+}
+.recimage{
+	display: flex;
+	height: 300px;
+	width:350px;
+}
+
+
+.letras{
+	display: flex;
+	margin-left: 30px;
+
+}
+.infohuella{
+	display: flex;
+	width: 400px;
+
+}
+
+.tercerhuella{
+	padding: 2%;
+}
+
+
+
+/*////////////////////////////////////////////	 RECURSOS	////////////////////////////////////////////////////////////////*/
+
+.primerrecursos {
+	display: flex;
+	flex-direction: column;
+}
+
+.parteuno {
+	display: flex;
+	padding: 2%;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.segundorecursos {
+	background-color: #E39968;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	gap: 20px;
+}
+
+.imagenesbloque {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.buscador{
+	display: none;
+	background-color: #ED5B5D;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 283px;
+	height: 37px;
+	padding-left: 4%;
+	align-items: center;
+	margin-left: 1%;
+}
+
+.buscadormap {
+	display: none;
+	background-color: #ED5B5D;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 283px;
+	height: 37px;
+	padding-left: 4%;
+	align-items: center;
+	margin-left: 1%;
+}
+
+.swiper {
+	padding: 2%;
+	margin-top: 20px;
+	width: 450px;
+	height: 350px;
+
+}
+
+.imagcarou {
+	width: 350px;
+	height: 305px;
+	align-content: center;
+	align-items: center;
+	margin-left: 50px;
+}
+
+
+/*////////////////////////////////////////////	 Sección Para la Memoria	////////////////////////////////////////////////////////////////*/
+
+.textoprincipal {
+	display: none;
+}
+
+/* Footer */
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	background-color: #95B48A;
+	height: 100%;
+	padding: 50px 10px;
+	gap: 25px;
+
+}
+
+.texto6 {
+
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+}
+
+.texto6 h2
+.texto6 h4 {
+	margin: 0;
+}
+
+.bloquef {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.texto7 {
+	display: flex;
+	flex-direction: column;
+	height: 70px;
+	width: 100px;
+}
+
+.texto8 {
+	display: flex;
+	flex-direction: column;
+	height: 40px;
+	width: 150px;
+}
+
+.texto9 {
+	display: flex;
+	flex-direction: column;
+	height: 40px;
+	width: 200px;
+}
+
+.redessociales {
+	display: flex;
+	flex-direction: column;
+}
+
+.bloquef>div:nth-child(1) {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: initial;
+	gap: 10px;
+}
+
+.bloquef>div:nth-child(2) {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	text-align: initial;
+	gap: 10px;
+}
+
+.bloquef>div:nth-child(1) div {
+	width: 50%;
+}
+
+.bloquef>div:nth-child(2) div {
+	width: 50%;
+}
+
+.contact {
+	background: rgba(227, 153, 104, 1.00);
+	display: flex;
+
+	flex-direction: column;
+	align-items: center;
+}
+
+.contactbloque {
+	margin-left: 20px;
+	padding: 10px;
+	flex-direction: column;
+
+	gap: 1em;
+	display: flex;
+}
+
+.imagenexposicion{
+	display: flex;
+	justify-content: center;
+}
+
+.image1{
+	display: flex;
+	flex-direction: column;
+	widows: 260px;
+	height: 290px;
+}
+
+/*////////////////////////////////////////////	 Sección Exposición	////////////////////////////////////////////////////////////////*/
+
+.exposiciondiv {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	gap: 10px;
+}
+
+
+/*////////////////////////////////////////////	 Sección Memoria Mundial	////////////////////////////////////////////////////////////////*/
+
+.textodesk-memoriamundial {
+	display: none;
+}
+
+.card:hover {
+	background-color: var(--btnrojo-primario);
+}
+
+.bloqueuno {
+	padding: 0 10px;
+}
+
+.carac-cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	padding:2%;
+	background: var(--naranja-primario);
+	border-radius: 3px;
+}
+
+.card-info h1{
+	color: black;
+	font-size: 40px;
+	padding-bottom: 5px;
+}
+
+
+.bloquedos {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	margin-top: 10px;
+}
+
+
+.carac-cards-dos {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 2%;
+}
+
+.titulosombretestimonios h1{
+	margin-bottom: 10px;
+}
+
+.contenedortextos {
+	margin-bottom: 15px;
+	padding-left: 2%;
+}
+
+.bloquetextodos {
+	margin: 30px 0 10px 0;
+	padding: 2%;
+}
+
+.bloquetextodos h1,h2{
+	margin-bottom: 2%x;
+	color: black;
+}
+
+.carddos {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.textodeskcard {
+	display: none;
+}
+
+.textomobilecard {
+	margin-bottom: 10px;
+}
+
+
+/*////////////////////////////////////////////	 Sección Noticias	////////////////////////////////////////////////////////////////*/
+
+.noticiasrelevantes {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: var(--naranja-primario);
+	color: white;
+}
+
+.noticia {
+	background: var(--verde-primario);
+	padding: 10px; 
+	margin-bottom: 10px;
+	
+}
+
+.noti-info {
+    padding: 5px;
+    background-color: rgba(39,39,39,0.60);
+    border-radius: 5px;		
+}
+
+.noti-info h2{
+	color: white
+}
+
+.noti-info p {
+	color: white;
+}
+
+.noti-uno {
+	margin-top: 10px;
+}
+
+.noticia p {
+	margin-bottom: 10px;
+}
+
+.noti-uno {
+	background-image: url("images/visita-cidh-derechos-humanos-dictadura-plaza-de-mayo-madres-desaparecidos.jpg")
+}
+	
+.noti-dos {
+	background-image: url("images/visita-cidh-derechos-humanos.jpg");
+}
+	
+.noti-tres {
+	background-image: url("images/liberacion-de-presos-derechos-humanos.jpg");
+}
+	
+.noti-cuatro {
+	background-image: url("images/madres-de-plaza-de-mayo-derechos-humanos.jpg");
+}
+	
+.noti-cinco {
+	background-image: url("images/legajo-recorte-desaparecidos-derechos-humanos.jpg");
+}
+
+.noti-info:hover{
+	transform: scale(1.010);
+}
+
+
+/*////////////////////////////////////////////	 Sección Contacto	////////////////////////////////////////////////////////////////*/
+
+.contactanos {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-size: 35px;
+	display: flex;
+}
+
+#mapa {
+	padding-bottom: 40px;
+}
+
+#mapa iframe {
+	width: 320px;
+	height: 320px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.campoform {
+	width: 300px;
+	height: 50px;
+	background-color: #F2F2F2;
+	padding: 15px;
+	border-radius: 10px;
+	border: 0px;
+}
+
+.campomensaje {
+	width: 300px;
+	height: 50px;
+	background-color: #F2F2F2;
+	padding: 16px;
+	border-radius: 10px;
+	border: 0px
+}
+
+
+/* Dropdown */
+
+.secciones {
+	display: none;
+}
+
+.display_dropdown {
+	display: flex;
+}
+
+#test {
+	border: none;
+}
+
+
+/*////////////////////////////////////////////	 MEDIA QUERIES	////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width: 768px) {
+	
+/*////////////////////////////////////////////	 Titulos	////////////////////////////////////////////////////////////////*/	
+	
+	h1 {
+		display: flex;
+		font-size: 48px;
+	}
+
+	h2 {
+		font-weight: 700;
+		font-size: 24px;
+	}
+
+	h4 {
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	h5 {
+		font-size: 16px;
+		font-weight: 400;
+	}
+
+	h3 {
+		font-weight: 500;
+		font-size: 15px;
+	}
+	
+
+	.bloque2 {
+		margin: 20px 20px 20px 20px;
+	}
+
+	span:hover {
+		color: white;
+	}
+
+	.navegador {
+		height: 100%;
+	}
+
+	.barranav:hover {
+		background-color: #95B489;
+	}
+
+	.logo {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.navegador {
+		display: flex;
+		flex-direction: row;
+		text-decoration: none;
+		color: #ED5B5C;
+	}
+
+	.secciones {
+		display: flex;
+		height: 100%;
+		width: 80%;
+		gap: 20px;
+		align-items: center;
+		justify-content: space-around;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		color: #95B48A;
+	}
+
+	.quien-1 {
+		width: 70px;
+
+		height: 50px;
+		display: flex;
+		text-align: center;
+	}
+
+	.huella-1 {
+
+		width: 70px;
+		height: 30px;
+		display: flex;
+		text-align: center;
+	}
+
+	.recursos-1 {
+		width: 70px;
+		height: 30px;
+		display: flex;
+		text-align: center;
+	}
+
+	.Memoria-1 {
+		width: 70px;
+		height: 40px;
+		display: flex;
+		text-align: center;
+	}
+
+	.imagenes-1 {
+		width: 10px;
+		height: 70px;
+		display: flex;
+	}
+
+	.contenedor-slidder {
+		margin-left: 50%;
+		width: 50%;
+		margin-top: -150px;
+
+	}
+
+	.swiper {
+		margin-top: 40px;
+	}
+
+	.quien {
+		width: 100px;
+		background-color: blue;
+		height: 100px;
+		display: flex;
+		text-align: center;
+	}
+
+	.segundorecursos {
+		height: 700px;
+	}
+
+	.bajada3 {
+		margin-top: 15px;
+	}
+
+	.buscadormap {
+		display: flex;
+		flex-direction: row;
+		margin-left: 40%;
+		margin-top: 20px;
+	}
+
+
+
+	.secciones h5 {
+		color: #95B48A;
+		width: 14.2%;
+	}
+
+	.dropdown {
+		display: none;
+	}
+
+	.hamburguesa {
+		display: none;
+	}
+
+
+
+
+	/* Bloque 3 */
+	.bloque3 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		height: 550px;
+		gap: 50px;
+	}
+
+	.fotobloque3 {
+		width: 600px;
+		height: 600px;
+	}
+
+	.texto3 {
+		width: 400px;
+		gap: 10px;
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.fotobloque3 img {
+		width: 600px;
+		height: 600px;
+	}
+
+
+	/* Bloque 4 */
+
+	.bloque4 {
+		background-color: #E39968;
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 20px 20px 20px;
+		width: 100%;
+		height: 550px;
+
+	}
+
+	.texto4 {
+		margin: 10px 20px 20px 20px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.fotobloque4 {
+		margin: 0px 20px 0px -54px;
+	}
+
+	.fotobloque4 img {
+		width: 900px;
+		height: 750px;
+	}
+
+
+	/* Bloque 5 */
+
+	.bloque5 {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 700px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.texto5 {
+
+		margin: 10px 20px 20px 20px;
+		display: flex;
+		gap: 10px;
+	}
+
+	.fotobloque5 {
+		margin: 25px 20px 20px 20px;
+	}
+
+	.fotobloque5 img {
+		width: 700px;
+		height: 450px;
+	}
+
+
+	/* Footer */
+
+	.footer {
+		display: flex;
+		flex-direction: column;
+		background-color: #95B48A;
+		height: 100%;
+		padding: 50px 10px;
+		margin-bottom: 0px;
+		gap: 25px;
+	}
+
+	.redessociales {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imagenesredes {
+		display: flex;
+		flex-direction: row;
+		height: 40px;
+		width: 40px;
+		margin-top: 20px;
+		gap: 20px;
+	}
+
+	.iconosocial {
+		display: flex;
+		flex-direction: row;
+
+	}
+
+	/* MEDIA QUERIES DEL BODY */
+	.contact {
+		background: rgba(227, 153, 104, 1.00);
+		display: flex;
+		justify-content: space-around;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.contactbloque {
+		flex-direction: column;
+		align-items: flex-start;
+		display: flex;
+		gap: 1em;
+	}
+
+	#mapa {
+		display: flex;
+		margin-top: 45px;
+	}
+
+	#mapa iframe {
+		width: 700px;
+		height: 440px;
+		border-radius: 10px;
+		display: flex;
+
+		align-items: flex-start;
+	}
+
+	.campoform {
+		width: 450px;
+		height: 70px;
+		background-color: #F2F2F2;
+		padding: 15px;
+		border-radius: 10px;
+		border: 0px;
+	}
+
+	.campomensaje {
+		width: 450px;
+		height: 150px;
+		background-color: #F2F2F2;
+		padding: 16px;
+		border-radius: 10px;
+		border: 0px
+	}
+
+	/* FIN MEDIA QUERIES DE BODY */
+
+
+
+	/* quiense somos*/
+
+
+	.imagen2segundaseccion {
+		width: 23%
+	}
+
+	.segundasecciontextos {
+		display: none;
+	}
+
+	.primerasecciontextos {
+		display: flex;
+	}
+
+	.terceraseccion {
+		height: 450px;
+	}
+
+	.tercerasecciontextos {
+		display: none;
+	}
+
+	.tercerasecciontextosdesk {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imagenterceraseccion {
+		display: flex;
+	}
+
+	.nuestra1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	/* Sección Huella */
+		.titulo1{
+		display: flex;
+		margin-top: 100px;
+	}
+	
+	.recimage {
+		display: flex;
+		flex-direction: row;
+		height: 500px;
+		width: 70%;
+		margin-left: 50%;
+		margin-top: -270px;
+	}
+	
+	.bajada1 {
+		display: flex;
+		height: 220px;
+		width: 700px;
+		margin-left: 30%;
+		margin-top: 110px;
+	}
+	.partetitulos{
+		display: flex;
+		height: 180%;
+		background-color:#F2F2F2;
+	}
+	.segundobloque{
+		background-color: #E39968;
+	}
+	
+	.menuhuella{
+		display: flex;
+		height: 80px;
+		width: 100%;
+		box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+	}
+	
+	.cate{
+		display: flex;
+		height: 80px;
+		width: 300px;
+		align-items: center;
+		justify-content: space-around;
+		text-align: center;
+		background-color: #593A40;
+	}
+		
+	.catedos{
+		display: flex;
+		height: 80px;
+		width: 300px;
+		align-items: center;
+		justify-content: space-around;
+		text-align: center;
+		background-color: #593A40;
+	}
+	
+	.catetres{
+		display: flex;
+		height: 80px;
+		width: 300px;
+		align-items: center;
+		justify-content: space-around;
+		text-align: center;
+		background-color: #593A40;
+	}
+	
+	.imagenbloque{
+	display: flex;
+	width: -100px;
+	height: -100px;
+}
+.letras{
+	display: flex;
+	flex-direction: column;
+	-webkit-column-count:3;
+
+}
+.infohuella{
+	display: flex;
+	height: 200px;
+	width: 500px;
+	margin-left: 440px;
+	margin-top:-120px;
+}
+	.segundahuella{
+		padding: 2%;
+		flex-direction: column;
+	}
+	
+	.tercerhuella{
+		padding: 2%;
+
+	}
+
+	/* Sección Contacto */
+
+	.contact {
+		background: rgba(227, 153, 104, 1.00);
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	/* Sección Para la Memoria */
+
+	.textoprincipal {
+		display: flex;
+	}
+
+	.exposiciondiv2 {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding: 2%;
+		background-color: #E39968;
+		margin-top: 0px;
+	}
+.exposiciondiv {
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	gap: 10px;
+	background-color:#F2F2F2;
+}
+.imagenexposicion {
+		display: flex;
+		justify-content: center;
+	}
+	
+.image1{
+	display: flex;
+	height: 400px;
+	width: 600px;
+}
+
+
+
+
+	/* Sección Noticias */
+
+	.noticiasrelevantes {
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+	}
+
+
+	.contenedorprincipaldenoticias {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+		padding: 20px;
+
+	}
+
+	/* Sección Recursos */
+	.primerrecursos {
+    display: flex;
+    flex-direction: row;
+}
+	
+	
+	.imagenesbloque {
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		gap: 10px;
+	}
+	.rowimagen{
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	/* Sección Memoria Mundial */
+
+
+	.carac-cards-dos {
+		display: flex;
+		flex-direction: row;
+		padding: 2%;
+	}
+
+	.carduno {
+		display: flex;
+		align-items: center;
+	}
+
+	.carddos {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.cardtres {
+		display: flex;
+		align-items: center;
+	}
+
+	.cardcuatro {
+		display: flex;
+		align-items: center;
+	}
+
+	.cardcinco {
+		display: flex;
+		align-items: center;
+	}
+
+	.cardseis {
+		display: flex;
+		align-items: center;
+	}
+
+	.cardsiete {
+		display: flex;
+		align-items: center;
+	}
+
+	.cardocho {
+		display: flex;
+		align-items: center;
+	}
+
+}
